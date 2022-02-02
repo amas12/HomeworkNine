@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class NegativeTests {
     @Test
     void test00() {
-        assertTrue(false);
+        assertTrue(null);
     }
 
     @Test
@@ -23,6 +23,11 @@ public class NegativeTests {
 
     @Test
     void test03() {
+        assertTrue(false);
+    }
+
+    @Test
+    void test04() {
         assertTrue(false);
     }
 

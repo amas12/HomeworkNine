@@ -1,19 +1,28 @@
-package test;
-import org.junit.jupiter.api.Disabled;
+package tests.simple;
+
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class SkippedTests {
+public class NegativeTests {
     @Test
-    @Disabled
     void test00() {
         assertTrue(false);
     }
 
     @Test
-    @Disabled("With some reason")
     void test01() {
+        assertTrue(false);
+    }
+
+    @Test
+    void test02() {
+        assertTrue(false);
+    }
+
+    @Test
+    void test03() {
         assertTrue(false);
     }
 

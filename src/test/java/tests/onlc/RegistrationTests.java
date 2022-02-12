@@ -26,7 +26,7 @@ public class RegistrationTests extends TestBase {
         step("Ввести фамилию", () -> {
             $("#lastName").setValue("Egorov");
         });
-        step("Ввести электопочту", () -> {
+        step("Ввести email", () -> {
             $("#userEmail").setValue("alex@egorov.com");
         });
         step("Выбрать пол", () -> {
@@ -36,7 +36,7 @@ public class RegistrationTests extends TestBase {
             $("#userNumber").setValue("1231231230");
 
         });
-        step("Ввести дата рождение", () -> {
+        step("Ввести дату рождение", () -> {
             $("#dateOfBirthInput").click();
             $(".react-datepicker__month-select").selectOption("July");
             $(".react-datepicker__year-select").selectOption("2008");
@@ -69,7 +69,7 @@ public class RegistrationTests extends TestBase {
                     .parent().shouldHave(text("Alex Egorov"));
 
         });
-        step("Проверка на кооректность веденной формы", () -> {
+        step("Проверка на коректность введенной формы", () -> {
             $(".table-responsive").$(byText("Student Name"))
                     .parent().shouldHave(text("Alex Egorov"));
         });

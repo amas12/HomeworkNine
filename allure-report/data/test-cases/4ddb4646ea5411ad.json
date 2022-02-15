@@ -1,0 +1,714 @@
+{
+  "uid" : "4ddb4646ea5411ad",
+  "name" : "fillFormTest()",
+  "fullName" : "tests.onlc.RegistrationTests.fillFormTest",
+  "historyId" : "ac7c89c5ea97d150ecbd309469fce02f",
+  "time" : {
+    "start" : 1644950938970,
+    "stop" : 1644950961937,
+    "duration" : 22967
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1644950938837,
+      "stop" : 1644950938872,
+      "duration" : 35
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "РћС‚РєСЂС‹РІР°РµРј СЃС‚СЂР°РЅРёС†Сѓ",
+      "time" : {
+        "start" : 1644950938982,
+        "stop" : 1644950950184,
+        "duration" : 11202
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://demoqa.com/automation-practice-form",
+        "time" : {
+          "start" : 1644950939135,
+          "stop" : 1644950950183,
+          "duration" : 11048
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "РќР°Р·РІР°РЅРёРµ С„РѕСЂРјС‹",
+      "time" : {
+        "start" : 1644950950184,
+        "stop" : 1644950950990,
+        "duration" : 806
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".practice-form-wrapper\") should have(text \"Student Registration Form\")",
+        "time" : {
+          "start" : 1644950950311,
+          "stop" : 1644950950990,
+          "duration" : 679
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’РІРµСЃС‚Рё РёРјСЏ",
+      "time" : {
+        "start" : 1644950950991,
+        "stop" : 1644950951659,
+        "duration" : 668
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#firstName\") set value(Alex)",
+        "time" : {
+          "start" : 1644950950991,
+          "stop" : 1644950951658,
+          "duration" : 667
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’РІРµСЃС‚Рё С„Р°РјРёР»РёСЋ",
+      "time" : {
+        "start" : 1644950951659,
+        "stop" : 1644950952171,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#lastName\") set value(Egorov)",
+        "time" : {
+          "start" : 1644950951660,
+          "stop" : 1644950952171,
+          "duration" : 511
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’РІРµСЃС‚Рё email",
+      "time" : {
+        "start" : 1644950952171,
+        "stop" : 1644950952682,
+        "duration" : 511
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#userEmail\") set value(alex@egorov.com)",
+        "time" : {
+          "start" : 1644950952172,
+          "stop" : 1644950952682,
+          "duration" : 510
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’С‹Р±СЂР°С‚СЊ РїРѕР»",
+      "time" : {
+        "start" : 1644950952682,
+        "stop" : 1644950953194,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#genterWrapper/by text: Other\") click()",
+        "time" : {
+          "start" : 1644950952693,
+          "stop" : 1644950953194,
+          "duration" : 501
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’РІРµСЃС‚Рё РЅРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°",
+      "time" : {
+        "start" : 1644950953195,
+        "stop" : 1644950953808,
+        "duration" : 613
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#userNumber\") set value(1231231230)",
+        "time" : {
+          "start" : 1644950953195,
+          "stop" : 1644950953808,
+          "duration" : 613
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’РІРµСЃС‚Рё РґР°С‚Сѓ СЂРѕР¶РґРµРЅРёРµ",
+      "time" : {
+        "start" : 1644950953809,
+        "stop" : 1644950956675,
+        "duration" : 2866
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#dateOfBirthInput\") click()",
+        "time" : {
+          "start" : 1644950953809,
+          "stop" : 1644950954217,
+          "duration" : 408
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".react-datepicker__month-select\") select option(July)",
+        "time" : {
+          "start" : 1644950954217,
+          "stop" : 1644950954774,
+          "duration" : 557
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".react-datepicker__year-select\") select option(2008)",
+        "time" : {
+          "start" : 1644950954774,
+          "stop" : 1644950955275,
+          "duration" : 501
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"[aria-label$='July 30th, 2008']\") click()",
+        "time" : {
+          "start" : 1644950955275,
+          "stop" : 1644950955754,
+          "duration" : 479
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"#subjectsInput\") set value(Math)",
+        "time" : {
+          "start" : 1644950955754,
+          "stop" : 1644950956266,
+          "duration" : 512
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"#subjectsInput\") press enter()",
+        "time" : {
+          "start" : 1644950956266,
+          "stop" : 1644950956675,
+          "duration" : 409
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’С‹Р±СЂР°С‚СЊ С…РѕР±Р±Рё",
+      "time" : {
+        "start" : 1644950956676,
+        "stop" : 1644950957084,
+        "duration" : 408
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#hobbiesWrapper/by text: Sports\") click()",
+        "time" : {
+          "start" : 1644950956676,
+          "stop" : 1644950957084,
+          "duration" : 408
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’РІРµСЃС‚Рё Р°РґСЂРµСЃ",
+      "time" : {
+        "start" : 1644950957085,
+        "stop" : 1644950957495,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#currentAddress\") set value(Some address 1)",
+        "time" : {
+          "start" : 1644950957085,
+          "stop" : 1644950957495,
+          "duration" : 410
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’С‹Р±СЂР°С‚СЊ С€С‚Р°С‚",
+      "time" : {
+        "start" : 1644950957496,
+        "stop" : 1644950958519,
+        "duration" : 1023
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#state\") scroll to()",
+        "time" : {
+          "start" : 1644950957497,
+          "stop" : 1644950957741,
+          "duration" : 244
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"#state\") click()",
+        "time" : {
+          "start" : 1644950957741,
+          "stop" : 1644950958032,
+          "duration" : 291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"#stateCity-wrapper/by text: NCR\") click()",
+        "time" : {
+          "start" : 1644950958032,
+          "stop" : 1644950958519,
+          "duration" : 487
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Р’С‹Р±СЂР°С‚СЊ РіРѕСЂРѕРґ",
+      "time" : {
+        "start" : 1644950958520,
+        "stop" : 1644950959294,
+        "duration" : 774
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#city\") click()",
+        "time" : {
+          "start" : 1644950958520,
+          "stop" : 1644950958928,
+          "duration" : 408
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"#stateCity-wrapper/by text: Noida\") click()",
+        "time" : {
+          "start" : 1644950958928,
+          "stop" : 1644950959294,
+          "duration" : 366
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "РћС‚РїСЂР°РІРёС‚СЊ С„РѕСЂРјСѓ",
+      "time" : {
+        "start" : 1644950959295,
+        "stop" : 1644950959646,
+        "duration" : 351
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#submit\") click()",
+        "time" : {
+          "start" : 1644950959296,
+          "stop" : 1644950959646,
+          "duration" : 350
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "РџСЂРѕРІРµСЂРєР° С„РѕСЂРјС‹ ",
+      "time" : {
+        "start" : 1644950959646,
+        "stop" : 1644950960327,
+        "duration" : 681
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#example-modal-sizes-title-lg\") should have(text \"Thanks for submitting the form\")",
+        "time" : {
+          "start" : 1644950959647,
+          "stop" : 1644950959902,
+          "duration" : 255
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".table-responsive/by text: Student Name/By.xpath: ..\") should have(text \"Alex Egorov\")",
+        "time" : {
+          "start" : 1644950959903,
+          "stop" : 1644950960327,
+          "duration" : 424
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "РџСЂРѕРІРµСЂРєР° РЅР° РєРѕСЂРµРєС‚РЅРѕСЃС‚СЊ РІРІРµРґРµРЅРЅРѕР№ С„РѕСЂРјС‹",
+      "time" : {
+        "start" : 1644950960327,
+        "stop" : 1644950960734,
+        "duration" : 407
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".table-responsive/by text: Student Name/By.xpath: ..\") should have(text \"Alex Egorov\")",
+        "time" : {
+          "start" : 1644950960328,
+          "stop" : 1644950960734,
+          "duration" : 406
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 39,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1644950960740,
+      "stop" : 1644950961913,
+      "duration" : 1173
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "109e5aeefe82d0e4",
+      "name" : "Last screenshot",
+      "source" : "109e5aeefe82d0e4.png",
+      "type" : "image/png",
+      "size" : 310725
+    }, {
+      "uid" : "6f6c6185d16a9ed0",
+      "name" : "Page source",
+      "source" : "6f6c6185d16a9ed0.html",
+      "type" : "text/plain",
+      "size" : 52226
+    }, {
+      "uid" : "a94df01ea2132fc8",
+      "name" : "Browser console logs",
+      "source" : "a94df01ea2132fc8.txt",
+      "type" : "text/plain",
+      "size" : 155
+    }, {
+      "uid" : "ba7f08f02f905b2f",
+      "name" : "Video",
+      "source" : "ba7f08f02f905b2f.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:tests.onlc.RegistrationTests]/[method:fillFormTest()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "10632@LAPTOP-4AB6G28V.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.onlc.RegistrationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.onlc.RegistrationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "fillFormTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.onlc.RegistrationTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ddb4646ea5411ad.json",
+  "parameterValues" : [ ]
+}

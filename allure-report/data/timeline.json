@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-4AB6G28V",
+    "children" : [ {
+      "name" : "10632@LAPTOP-4AB6G28V.Test worker(1)",
+      "children" : [ {
+        "name" : "fillFormTest()",
+        "uid" : "4ddb4646ea5411ad",
+        "parentUid" : "d9173146f28e283ce24386e9024b6f38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644950938970,
+          "stop" : 1644950961937,
+          "duration" : 22967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d9173146f28e283ce24386e9024b6f38"
+    } ],
+    "uid" : "1da7acbeaef9a16489c2ca54bce91a44"
+  } ]
+}

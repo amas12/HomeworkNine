@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 15 21:48:58 MSK 2022","Tue Feb 15 21:49:21 MSK 2022","22967","","tests.onlc.RegistrationTests","","tests.onlc.RegistrationTests","fillFormTest","fillFormTest()",""
